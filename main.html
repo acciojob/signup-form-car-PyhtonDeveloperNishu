@@ -8,27 +8,31 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-<form meth="post">
+<form method="post">
 	<label for="name">Name</label>
 	<input type="test" id="name" name="full_name" required placeholder="Name">
 	<br><br>
 	<label for="email">Email</label>
 	<input type="test" id="email" name="email" required placeholder="Email">
 	<br><br>
-	<label for="Gender" name="gender">Gender</label>
+	<label for="Gender" name="gender">Gender :</label>
 	<br>
-	<input type="radio" required id="gender_m" value="male" name="gender">
+	<input type="radio" required id="gender_m" value="male" name="gender">Male
 	<br>
-	<input type="radio" required id="gender_f" value="female" name="gender">
+	<input type="radio" required id="gender_f" value="female" name="gender">Female
 	<br><br>
-	<label for="cars">Car Brands</label>
+	<label for="cars">Car Brands :</label>
 	<select name="cars" id="cars" multiple>
 		<option value="BMW" >BMW</option>
 		<option value="BMW">BUGATI</option>
 		<option value="BMW">AUDI</option>
 	</select>
-	<label for="age">DOB</label>
-	<input type="date" id="dob" placeholder="Age" name="dob" required>
+	<br><br>
+	<label for="age">Age</label>
+	<input type="number" id="age" placeholder="Age" name="age" required>
+	<br><br>
+	<label for="dob">DOB</label>
+	<input type="number" id="age" placeholder="Age" name="dob" required>
 	<br><br>
 	<label for="tel">Phone Number</label>
 	<input id="tel" type="tel" placeholder="xxx-xxx-xxxx">
