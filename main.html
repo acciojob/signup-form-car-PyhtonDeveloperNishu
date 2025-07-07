@@ -10,22 +10,20 @@
 	<!-- the entire body must be written by student -->
 <form method="post">
 	<label for="name">Name</label>
-	<input type="test" id="name" name="full_name" required placeholder="Name">
+	<input type="text" id="name" name="full_name" required placeholder="Name">
 	<br><br>
 	<label for="email">Email</label>
 	<input type="test" id="email" name="email" required placeholder="Email">
 	<br><br>
-	<label for="Gender" name="gender">Gender :</label>
-	<br>
+	<label for="gender_m" >Gender :</label>
 	<input type="radio" required id="gender_m" value="male" name="gender">Male
-	<br>
 	<input type="radio" required id="gender_f" value="female" name="gender">Female
 	<br><br>
 	<label for="cars">Car Brands :</label>
 	<select name="cars" id="cars" multiple>
 		<option value="BMW" >BMW</option>
-		<option value="BMW">BUGATI</option>
-		<option value="BMW">AUDI</option>
+		<option value="BUGATI">BUGATI</option>
+		<option value="AUDI">AUDI</option>
 	</select>
 	<br><br>
 	<label for="age">Age</label>
@@ -41,7 +39,7 @@
 	<input type="password" required id="password" placeholder="Password">
 	<br><br>
 	<label for="tos">I agree to the TOS</label>
-	<input id="tos" type="checkbox" required id="tos">
+	<input id="tos" type="checkbox" required id="tos" name="tos">
 	<br><br>
 	<button type="submit">Submit</button>
 </form>
